@@ -1,0 +1,20 @@
+maps
+
+counting elements
+storing associations
+
+queue
+
+add(obj);
+offer(obj);
+remove();
+poll();
+element();
+peek();
+ArrayDequeue is recommended
+
+java.util.PriorityQueue
+stores elements in a Min-Heap
+is stable 
+
+good for scheduling

@@ -1,0 +1,20 @@
+sets
+
+collection of objects
+order doesn't always matter
+no repeat objects
+
+java.util.set;
+sets are an interface (which means something has to implement it)
+.add(obj);
+.remove(obj);
+.contains(obj);
+
+java.util.HashSet
+as the set gets bigger, it doesn't take any longer to check if a set has someting
+a hash is a numerical representation of an object
+by default, order is not guaranteed
+
+java.util.TreeSet
+allows you to have ordered set
+

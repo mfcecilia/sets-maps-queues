@@ -1,0 +1,35 @@
+Comparable< > interface
+let's you use the compareTo(obj); method
+
+
+import java.util.*;
+public class PersonExample {
+	public static void main (String[] args) {
+		HashMap<String, Integer> map = new HashMap<String, Integer>();
+		HashSet<String> set = new HashSet<String>();
+		PriorityQueue<.........
+	}
+	implements Comparable<PersonExample> {
+String name;
+int id;
+int age;
+
+@Override
+public in compareTo(PersonExample o) {
+	return Integer.compare(id, o.id);
+}
+
+@Override
+public int hashCode() {
+	return id;
+}
+
+@Override
+public boolean equals(Object o) {
+	PersonExample p = (PersonExample) o;  //example of casting
+	return name.equals(p.name) && id == ((PersonExample) o).id;
+}
+
+	
+
+}
