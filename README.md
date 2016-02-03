@@ -32,3 +32,39 @@ dvader<br>
 o1kenobi<br>
 usetheforce<br>
 vader
+
+Intergalactic Elections<br>
+Time Limit: 2 seconds
+
+It is time for the yearly intergalactic elections to take place! This year the senate has met and decided that since everyone is using the Intergalactic Social Network that it would make sense to have to voting take place through the network. You have been tasked to count the votes after the election has taken place.
+
+Input<br>
+Each input will consist of a single test case. The first line of input will contain a single integer N (1≤N≤100001≤N≤10000) denoating the number of votes that will be in the input. This will be followed by a list of N votes, one per line. A vote will consist of one word, the username of the person who is being voted for. As before a username will consist of only lowercase alphanumeric characters.
+
+Output<br>
+Output the username which recieved the most number of votes, if there is a tie for who recieved the most votes output “Tie detected!”
+
+Sample Input 1	
+8<br>
+yoda<br>
+o1kenobi<br>
+yoda<br>
+o1kenobi<br>
+vader<br>
+yoda<br>
+vader<br>
+yoda<br><br>
+Sample Output 1 <br>
+yoda<br><br>
+Sample Input 2	
+8<br>
+yoda<br>
+o1kenobi<br>
+yoda<br>
+o1kenobi<br>
+vader<br>
+yoda<br>
+vader<br>
+o1kenobi<br><br>
+Sample Output 2<br>
+Tie detected!
